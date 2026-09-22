@@ -1,51 +1,40 @@
-```html
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>ElseWhere | Isla Gigantes</title>
 
-    <link rel="stylesheet" href="/code/destinations.css" />
+    <link rel="stylesheet" href="destinations.css">
   </head>
 
   <body>
-
-    <!-- HEADER -->
-
     <header class="destination-header">
-      <a href="/code/index.html" class="destination-brand">
-        <img src="/code/image3/logo.png" alt="ElseWhere Logo" />
+      <a href="index.html" class="destination-brand">
+        <img src="image3/logo.png" alt="ElseWhere Logo" />
         <span>ElseWhere</span>
       </a>
 
       <nav class="destination-nav">
-        <a href="/code/index.html">Home</a>
-        <a href="/code/index.html#local">Local</a>
-        <a href="/code/index.html#international">International</a>
-        <a href="/code/index.html#travel-guide">Travel Guide</a>
-        <a href="/code/index.html#gallery">Gallery</a>
-        <a href="/code/index.html#about">About Us</a>
+        <a href="index.html">Home</a>
+        <a href="index.html#local">Local</a>
+        <a href="index.html#international">International</a>
+        <a href="index.html#travel-guide">Travel Guide</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="index.html#about">About Us</a>
       </nav>
     </header>
 
-
-    <!-- MAIN PAGE -->
-
     <main class="destination-page">
-
-      <!-- BACK BUTTON -->
-
-      <a href="/code/index.html#local" class="back-button">
+      <a href="index.html#local" class="back-button">
         ← Back to Local Destinations
       </a>
 
-
-      <!-- MAIN DESTINATION IMAGE -->
+      <!-- TOP IMAGE FROM LOCAL DESTINATIONS -->
 
       <div class="destination-main-image">
-        <img src="/code/image3/gigantes.jpg" alt="Isla Gigantes" />
+        <img src="image3/gigantes.jpg" alt="Isla Gigantes" />
 
         <div class="destination-title">
           <h1>Isla Gigantes</h1>
@@ -53,29 +42,24 @@
         </div>
       </div>
 
-
-      <!-- ABOUT + QUICK INFO -->
-
       <div class="destination-content">
-
         <div class="destination-about">
           <h2>About the Place</h2>
 
           <p>
-            Isla Gigantes is a group of islands in Carles, Iloilo, known for
-            its beautiful beaches, clear waters, rock formations, and scenic
-            island landscapes. It is a popular destination for visitors who
-            enjoy island adventures and relaxing by the sea.
+            Isla Gigantes is a group of islands in Carles, Iloilo, known for its
+            beautiful beaches, clear waters, rock formations, and scenic island
+            landscapes. It is a popular destination for visitors who enjoy
+            island adventures and relaxing by the sea.
           </p>
         </div>
-
 
         <div class="quick-info">
           <h2>Quick Info</h2>
 
           <div class="info-item">
             <div class="info-label">📍 Location</div>
-            <div class="info-value">Carles, Iloilo, Philippines</div>
+            <div class="info-value">Carles, Iloilo</div>
           </div>
 
           <div class="info-item">
@@ -88,9 +72,7 @@
             <div class="info-value">₱2,000 – ₱4,000</div>
           </div>
         </div>
-
       </div>
-
 
       <!-- THINGS TO DO -->
 
@@ -98,7 +80,6 @@
         <h2>Things to Do</h2>
 
         <div class="activity-grid">
-
           <div class="activity">
             <div class="activity-icon">🏖</div>
             <p>Island Hopping</p>
@@ -118,10 +99,8 @@
             <div class="activity-icon">📷</div>
             <p>Photography</p>
           </div>
-
         </div>
       </section>
-
 
       <!-- TRAVEL TIPS -->
 
@@ -137,69 +116,35 @@
         </ul>
       </section>
 
-
-      <!-- DESTINATION GALLERY -->
+      <!-- FOUR PICTURES FROM GALLERY -->
 
       <section class="destination-gallery">
         <h2>More Photos</h2>
 
         <div class="destination-gallery-grid">
-
-          <img
-            src="/code/images/gigantes1.jpg"
-            alt="Isla Gigantes Gallery 1"
-          />
-
-          <img
-            src="/code/images/gigantes2.jpg"
-            alt="Isla Gigantes Gallery 2"
-          />
-
-          <img
-            src="/code/images/gigantes3.jpg"
-            alt="Isla Gigantes Gallery 3"
-          />
-
-          <img
-            src="/code/images/gigantes5.jpg"
-            alt="Isla Gigantes Gallery 4"
-          />
-
+          <img src="images/gigantes1.jpg" alt="Isla Gigantes Gallery 1" />
+          <img src="images/gigantes2.jpg" alt="Isla Gigantes Gallery 2" />
+          <img src="images/gigantes3.jpg" alt="Isla Gigantes Gallery 3" />
+          <img src="images/gigantes5.jpg" alt="Isla Gigantes Gallery 4" />
         </div>
       </section>
 
-
-      <!-- BOTTOM BACK BUTTON -->
-
       <div class="bottom-back">
-        <a href="/code/index.html#local" class="back-button">
+        <a href="index.html#local" class="back-button">
           ← Back to Local Destinations
         </a>
       </div>
-
     </main>
-
 
     <!-- IMAGE POPUP -->
 
     <div class="image-modal" id="imageModal">
-
       <span class="close-modal">&times;</span>
 
-      <img
-        id="modalImage"
-        src=""
-        alt="Expanded Destination Photo"
-      />
-
+      <img id="modalImage" src="" alt="Expanded Destination Photo" />
     </div>
 
-
-    <!-- JAVASCRIPT -->
-
-    <script src="/code/destinations.js"></script>
-
+    <script src="destinations.js"></script>
   </body>
 </html>
-```
 
