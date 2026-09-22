@@ -92,7 +92,7 @@ nav a:hover {
 /* HERO */
 .home-hero {
   min-height: calc(100vh - 70px);
-  background-image: url("/code/image3/background2.jpg");
+  background-image: url("image3/background2.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -170,11 +170,11 @@ main.home {
 }
 /* LOCAL BACKGROUND */
 .local-hero {
-  background-image: url("/code/image3/local-background.jpg");
+  background-image: url("image3/local-background.jpg");
 }
 /* INTERNATIONAL BACKGROUND */
 .international-hero {
-  background-image: url("/code/image3/international-background.jpg");
+  background-image: url("image3/international-background.jpg");
 }
 /* HERO OVERLAY */
 .destination-overlay {
@@ -440,7 +440,7 @@ main.home {
 
   background-image:
     linear-gradient(rgba(0, 40, 70, 0.45), rgba(0, 40, 70, 0.45)),
-    url("/code/gallery/gallery-background.jpg");
+    url("gallery/gallery-background.jpg");
 
   background-size: cover;
   background-position: center;
@@ -622,7 +622,7 @@ main.home {
 
   background-image:
     linear-gradient(rgba(20, 55, 80, 0.55), rgba(20, 55, 80, 0.55)),
-    url("/code/image3/travel-guide-bg.jpg");
+    url("image3/travel-guide-bg.jpg");
 
   background-size: cover;
   background-position: center;
@@ -1042,7 +1042,7 @@ main.home {
 
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("/code/image3/contact-bg.jpg");
+    url("image3/contact-bg.jpg");
 
   background-size: cover;
   background-position: center;
