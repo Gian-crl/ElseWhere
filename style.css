@@ -893,20 +893,15 @@ main.home {
 
   background-image:
     linear-gradient(rgba(20, 55, 80, 0.45), rgba(20, 55, 80, 0.45)),
-    url("/code/image3/about-bg.jpg");
-
+    url("image3/about-bg.jpg");
   background-size: cover;
   background-position: center;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   text-align: center;
-
   border-radius: 0 0 18px 18px;
 }
-
 .about-overlay {
   color: white;
 }
