@@ -1,38 +1,40 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>ElseWhere | Tromsø</title>
 
-    <link rel="stylesheet" href="/code/destinations.css" />
+    <link rel="stylesheet" href="destinations.css">
   </head>
 
   <body>
     <header class="destination-header">
-      <a href="/code/index.html" class="destination-brand">
-        <img src="/code/image3/logo.png" alt="ElseWhere Logo" />
+      <a href="index.html" class="destination-brand">
+        <img src="image3/logo.png" alt="ElseWhere Logo" />
         <span>ElseWhere</span>
       </a>
 
       <nav class="destination-nav">
-        <a href="/code/index.html">Home</a>
-        <a href="/code/index.html#local">Local</a>
-        <a href="/code/index.html#international">International</a>
-        <a href="/code/index.html#travel-guide">Travel Guide</a>
-        <a href="/code/index.html#gallery">Gallery</a>
-        <a href="/code/index.html#about">About Us</a>
+        <a href="index.html">Home</a>
+        <a href="index.html#local">Local</a>
+        <a href="index.html#international">International</a>
+        <a href="index.html#travel-guide">Travel Guide</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="index.html#about">About Us</a>
       </nav>
     </header>
 
     <main class="destination-page">
-      <a href="/code/codes/index.html#international" class="back-button">
+      <a href="index.html#international" class="back-button">
         ← Back to International Destinations
       </a>
 
+      <!-- TOP IMAGE FROM INTERNATIONAL DESTINATIONS -->
+
       <div class="destination-main-image">
-        <img src="../image3/tromso.jpg" alt="Tromsø" />
+        <img src="image3/tromso.jpg" alt="Tromsø" />
 
         <div class="destination-title">
           <h1>Tromsø</h1>
@@ -72,6 +74,8 @@
         </div>
       </div>
 
+      <!-- THINGS TO DO -->
+
       <section class="things-to-do">
         <h2>Things to Do</h2>
 
@@ -98,37 +102,41 @@
         </div>
       </section>
 
-      <div class="bottom-section">
-        <section class="travel-tips">
-          <h2>Travel Tips</h2>
+      <!-- TRAVEL TIPS -->
 
-          <ul>
-            <li>Bring warm and layered clothing.</li>
-            <li>Check the weather before outdoor activities.</li>
-            <li>Wear comfortable shoes for walking.</li>
-            <li>Plan activities ahead of time.</li>
-            <li>Respect nature and keep the surroundings clean.</li>
-          </ul>
-        </section>
+      <section class="travel-tips">
+        <h2>Travel Tips</h2>
 
-        <section class="destination-gallery">
-          <h2>Photos</h2>
+        <ul>
+          <li>Bring warm and layered clothing.</li>
+          <li>Check the weather before outdoor activities.</li>
+          <li>Wear comfortable shoes for walking.</li>
+          <li>Plan activities ahead of time.</li>
+          <li>Respect nature and keep the surroundings clean.</li>
+        </ul>
+      </section>
 
-          <div class="destination-gallery-grid">
-            <img src="../gallery/tromso.jpg" alt="Tromsø" />
-            <img src="../gallery/tromso2.jpg" alt="Tromsø" />
-            <img src="../gallery/tromso8.jpg" alt="Tromsø" />
-            <img src="../gallery/tromso4.jpg" alt="Tromsø" />
-          </div>
-        </section>
-      </div>
+      <!-- FOUR PICTURES FROM GALLERY -->
+
+      <section class="destination-gallery">
+        <h2>More Photos</h2>
+
+        <div class="destination-gallery-grid">
+          <img src="gallery/tromso.jpg" alt="Tromsø Gallery 1" />
+          <img src="gallery/tromso2.jpg" alt="Tromsø Gallery 2" />
+          <img src="gallery/tromso8.jpg" alt="Tromsø Gallery 3" />
+          <img src="gallery/tromso4.jpg" alt="Tromsø Gallery 4" />
+        </div>
+      </section>
 
       <div class="bottom-back">
-        <a href="/code/codes/index.html#international" class="back-button">
+        <a href="index.html#international" class="back-button">
           ← Back to International Destinations
         </a>
       </div>
     </main>
+
+    <!-- IMAGE POPUP -->
 
     <div class="image-modal" id="imageModal">
       <span class="close-modal">&times;</span>
@@ -136,6 +144,6 @@
       <img id="modalImage" src="" alt="Expanded Destination Photo" />
     </div>
 
-    <script src="../destinations.js"></script>
+    <script src="destinations.js"></script>
   </body>
 </html>
