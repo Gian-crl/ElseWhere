@@ -893,7 +893,7 @@ main.home {
 
   background-image:
     linear-gradient(rgba(20, 55, 80, 0.45), rgba(20, 55, 80, 0.45)),
-    url("about-bg.jpg");
+    url("image3/about-bg.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
